@@ -28,6 +28,12 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.21.0")
+
+    // Dependency for bootstrap
+    implementation("org.webjars:bootstrap:5.1.0")
+
+    // Thymeleaf starter to build a MVC web application
+    implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 }
 
 tasks.withType<KotlinCompile> {

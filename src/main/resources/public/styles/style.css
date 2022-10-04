@@ -1,0 +1,23 @@
+/* xs */
+.logo {
+    width: 75%;
+    height: auto;
+}
+/* sm */
+@media (min-width: 768px) {
+    .logo {
+        width: 60%;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+    .logo {
+        width: 50%;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+    .logo {
+        width: 50%;
+    }
+}
