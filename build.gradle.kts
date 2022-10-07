@@ -32,8 +32,11 @@ dependencies {
     // Dependency for bootstrap
     implementation("org.webjars:bootstrap:5.1.0")
 
-    // Thymeleaf starter to build a MVC web application
+    // Thymeleaf starter to build a MVC web application es una plantilla 
+    // emplea thymeleaf como motor de plantillas
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+
+    compileOnly("org.springframework.boot:spring-boot-devtools")
 }
 
 tasks.withType<KotlinCompile> {
